@@ -1,0 +1,28 @@
+main {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #151b29;
+
+
+}
+
+button {
+
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    transition: all 0.25s;
+}
+
+button:hover {
+
+    border-color: #00ad26c7;
+    color: olivedrab;
+    box-shadow: 0 0.5em 0.5em -0.4em #33ff00;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
